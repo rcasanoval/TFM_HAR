@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "HAR gather data app",
+    "slug": "HAR-gather-data-app",
+    "extra": {
+      "eas": {
+        "projectId": "109d67ce-041f-49a0-b01b-46d97c010755"
+      }
+    },
+    "android": {
+      "package": "com.manuel.suarez.HARgatherdataapp"
+    }
+  }
+}

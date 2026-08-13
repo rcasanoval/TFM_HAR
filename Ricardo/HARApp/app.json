@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "HARApp",
+    "slug": "HARApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rcasanoval.HARApp",
+      "permissions": [
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_WIFI_STATE"
+      ],
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "build": {
+          "releaseChannel": "default",
+          "developmentClient": false,
+          "distribution": "store",
+          "android": {
+            "buildType": "apk"
+          }
+        },
+        "projectId": "a6f2bc1e-caa5-41bc-8bf0-ce7216fbe1e7"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a6f2bc1e-caa5-41bc-8bf0-ce7216fbe1e7"
+    }
+  }
+}
